@@ -5,7 +5,9 @@ class CreateShows < ActiveRecord::Migration[6.0]
       t.string :show_type
       t.string :opening_date
       t.string :closing_date
-      t.integer :num_performance
+      t.integer :performances
+      t.integer :likes
+      t.string :image
 
       t.timestamps
     end
