@@ -1,24 +1,18 @@
-# README
+# The Top Longest-Running Broadway Shows
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A single page site to show Top Longest Running Broadway shows. The objective of this app is to demonstrate the use of fetch to the backend and dynamically perform DOM manipulation on the frontend.
 
-Things you may want to cover:
+## This is the backend API
+* [Link to the Frontend is here](https://github.com/asuthamm/BroadwayFrontend)
+* [API endpoint is here](https://bway-api.herokuapp.com/shows)
 
-* Ruby version
+* Ruby 2.6.1
+* Rais 6.0.2
 
-* System dependencies
+## System dependencies
+* postgreSQL
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+## Database initialization
+*  Rails db:migrate
+  
 * ...
